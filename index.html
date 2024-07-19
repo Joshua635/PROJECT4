@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve The Show </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        a:hover{
+            background-color: aliceblue;
+            color: black;
+        }
+        
+        .flex-container{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+           
+        }
+        .flex-container > .box1{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Deadpool.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container > .box2{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Gaganachari.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container > .box3{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Indian\ 2.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container > .box4{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/kalki.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container1{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+            
+        }
+        .flex-container1 > .box5{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Raayan.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container1 > .box6{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Thangalaan.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container1 > .box7{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/The\ Greatest\ of\ All\ Time.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container1 > .box8{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/et00359267-perszhrhek-portrait.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container2{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+        }
+        .flex-container2 > .box9{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/et00359660-mgqxchvxkf-portrait.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container2 > .box10{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/et00378240-uayzufnfyj-portrait.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container2 > .box11{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/et00392124-mlnkglfhmu-portrait.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .flex-container2 > .box12{
+            width: 200px;
+            height: 400px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/et00386123-yntskxgvnb-portrait.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+        }
+        .footer{
+            background-image: url('./images/Cinema\ Background.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-decoration: none;
+            justify-content: space-between;
+            color: white;
+            /* border: 2px solid white; */
+            display: flex;
+            text-align: center;
+            padding: 50px;
+            box-shadow: 1px 1px 10px black;
+            
+   
+}
+
+    </style>
+</head>
+<body>
+    <div class="header2">
+        <h1>BOOK &nbsp; YOUR &nbsp; MOVIE &nbsp; TICKET</h1>
+    </div>
+    <div class="header">
+        
+        <h1>WELCOME TO MOVIE WORLD</h1>
+        
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">HOME     &nbsp;     </a></li>
+            <li><a href="movies.html">MOVIES   &nbsp;     </a></li>
+            <li><a href="">STREAM   &nbsp;     </a></li>
+            <li><a href="">EVENTS   &nbsp;     </a></li>
+            <li><a href="">PLAYS    &nbsp;     </a></li>
+        </ul>
+
+    </div>
+    <!-- <div class="nav2">
+        <ul>
+            <li><a href="">LIST</a></li>
+            <li><a href="">OFFERS</a></li>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+    </div> -->
+    <div class="header3">
+        <h1>Recommended Movies</h1>
+    </div>
+
+    <div class="flex-container">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+
+        </div>
+        <div class="box3">
+
+        </div>
+        <div class="box4">
+
+        </div>
+    </div>
+
+    <div class="header4">
+        <h1>Upcoming Movies</h1>
+    </div>
+
+
+    <div class="flex-container1">
+        <div class="box5">
+
+        </div>
+        <div class="box6">
+
+        </div>
+        <div class="box7">
+
+        </div>
+        <div class="box8">
+
+        </div>
+    </div>
+
+    <div class="flex-container2">
+        <div class="box9">
+
+        </div>
+        <div class="box10">
+
+        </div>
+        <div class="box11">
+
+        </div>
+        <div class="box12">
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    
+
+    
+</body>
+</html>
